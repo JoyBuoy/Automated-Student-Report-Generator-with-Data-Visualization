@@ -41,7 +41,7 @@ Set up the file paths:
   
 - Run the script:
 
-      python Automated-Student-Report-Generator-with-Data-Visualization.py
+      python index.py
   
 <h2>The script will</h2>
 
