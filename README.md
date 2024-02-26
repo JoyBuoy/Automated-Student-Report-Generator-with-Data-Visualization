@@ -2,53 +2,57 @@
 
 This Python script is your report card hero! It generates personalized reports for each student in your Excel file, complete with final grades, class stats, and bar graphs. No more manual calculations or boring reports - automate your grading process with this easy-to-use tool.
 
+<h2>Features</h2>
 
-<h1>Description:</h1>
-Tired of manually creating student reports? This Python script automates the process, generating personalized PDF reports for each student with:
+- **Customizable Weightages**: Easily adjust the weightages for different tests.
+- **Automated Reports**: Generate reports for each student with their final grade, subject-wise marks, and class comparisons.
+- **Visual Analysis**: View bar plots comparing student marks to class averages for quick insights.
+- **Efficient**: Save time by automating the process of generating student reports.
 
-    Final Grades: Based on weighted averages of test scores.
-    Class Statistics: Average scores and highest marks in each subject.
-    Bar Graphs: Comparing student marks to class averages.
-    Student Pictures: Student photos for added personalization.
+  Stay organized and informed with the Student Marks Analyzer and Reporter.
 
-<h2>Key Features:</h2>
-
-    Easy to Use: Simply provide an Excel file with student data.
-    Visually Engaging: Includes bar graphs for easy comparison.
-    Customizable: Modify weights for final grade calculation and paths for files and folders.
-    Handles Missing Data: Gracefully handles students with incomplete information.
-
-<h2>Requirements:</h2>
+<h2>Requirements</h2>
 
     Python 3.x
-    pandas
-    matplotlib
-    reportlab
+    pandas` library
+    matplotlib` library
+    reportlab` library
+    
 
-<h2>Usage:</h2>
+<h2>Installation</h2>
+ Clone the repository:
 
-    Install required libraries: pip install pandas matplotlib reportlab
-    Update paths in the script:
-        excel_file_path: Path to your Excel file with student data.
-        output_folder_plot: Folder to store generated graphs.
-        student_photos : Folder containing student photos.
-        report_folder : Folder to store generated final reports.
-    Run the script: python script.py
+    git clone https://github.com/JoyBuoy/Automated-Student-Report-Generator-with-Data-Visualization.git
+    
+Install the required libraries:
 
-<h2>Generated Reports:</h2>
+    pip install pandas matplotlib reportlab
+    
+Set up the file paths:
 
-    Individual PDF reports for each student will be created in the specified output folder.
-    Each report includes:
-        Student ID (and name, if available)
-        Photo 
-        Final grade
-        Individual subject marks
-        Class statistics
-        Bar graph comparing student marks to class averages
+    excel_file_path: Path to the Excel file containing student marks.
+    output_folder_plot: Path to the folder where plots will be saved.
+    student_photos: Path to the folder containing student photos.
+    report_folder: Path to the folder where student reports will be saved.
+    
+<h2>Usage</h2>
 
-<h2>Contribute:</h2>
+- Update the file paths in the script according to your system.
+  
+- Run the script:
+
+      python Automated-Student-Report-Generator-with-Data-Visualization.py
+  
+<h2>The script will</h2>
+
+- Calculate final grades based on specified weightages.
+- Generate individual reports for each student in PDF format.
+- Create bar plots comparing student marks to class averages.
+
+
+<h2>Contribute</h2>
 Feel free to fork the repository and suggest improvements!
 
-<h2>Note:</h2>
+<h2>Note</h2>
 This readme provides a general overview. For detailed information, refer to the script itself.
 In addition make sure to name the student images with their respective student ID's.
